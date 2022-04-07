@@ -9,13 +9,14 @@ for(let idx=0;idx<_btn.length;idx++){
     _btn[idx].addEventListener('mouseover',(event)=>{
         event.target.style.opacity=1;
     })
-}
+};
 //마우스 아웃
 for(let idx=0;idx<_btn.length;idx++){
     _btn[idx].addEventListener('mouseout',(event)=>{
         event.target.style.opacity=0.3;
     })
-}
+};
+
 _btn[0].addEventListener('click',()=>{
     _body.style.backgroundColor='#000';
     mainTit.style.color='#f99';
@@ -28,7 +29,8 @@ _btn[0].addEventListener('click',()=>{
     for (let idx=0;idx<_p.length;idx++){
         _p[idx].style.color='#aaf';
     };
-})
+});
+
 _btn[1].addEventListener('click',()=>{
     _body.style.backgroundColor='#fff';
     mainTit.style.color='#000';
@@ -41,4 +43,4 @@ _btn[1].addEventListener('click',()=>{
     for (let idx=0;idx<_p.length;idx++){
         _p[idx].style.color='#000';
     };
-})
+});
